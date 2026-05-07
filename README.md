@@ -87,7 +87,7 @@ This project aims to provide:
 ## V1
 
 - [x] Base package installation
-- [] Networking tools
+- [x] Networking tools
 - [] Monitoring tools
 - [] Terminal setup
 
