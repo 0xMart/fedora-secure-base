@@ -1,0 +1,23 @@
+#!/bin/bash
+
+GREEN="\e[32m"
+BLUE="\e[34m"
+CYAN="\e[36m"
+RESET="\e[0m"
+
+echo -e "${BLUE}"
+echo "███████╗███████╗██████╗  ██████╗ ██████╗  █████╗ "
+echo "██╔════╝██╔════╝██╔══██╗██╔═══██╗██╔══██╗██╔══██╗"
+echo "█████╗  █████╗  ██║  ██║██║   ██║██████╔╝███████║"
+echo "██╔══╝  ██╔══╝  ██║  ██║██║   ██║██╔══██╗██╔══██║"
+echo "██║     ███████╗██████╔╝╚██████╔╝██║  ██║██║  ██║"
+echo "╚═╝     ╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝"
+
+echo -e "${CYAN}"
+echo "              Fedora Secure Base"
+echo "  	 Modern setup for sysadmins "
+echo -e "${RESET}"
+
+
+bash packages/base.sh
+bash packages/networking.sh
