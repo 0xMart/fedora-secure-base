@@ -1,4 +1,4 @@
-```md
+
 # Fedora Secure Base
 
 Modern Fedora setup for sysadmins, homelab and cybersecurity enthusiasts.
@@ -90,4 +90,3 @@ Always review scripts before running them on your system.
 ## Author
 
 Malo Martin / 0xMart
-````
