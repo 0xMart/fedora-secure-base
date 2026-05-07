@@ -94,16 +94,6 @@ This project aims to provide:
 
 ---
 
-# Preview
-
-Soon:
-- terminal screenshots
-- monitoring setup
-- cockpit dashboard
-- shell customization
-
----
-
 <div align="center">
 
 Made with ❤️ on Fedora by **0xMart**
