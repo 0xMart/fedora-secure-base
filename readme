@@ -1,0 +1,91 @@
+# Fedora Secure Base
+
+Modern Fedora setup for sysadmins, homelab and cybersecurity enthusiasts.
+
+---
+
+## Features
+
+- Useful CLI tools
+- Networking utilities
+- Monitoring tools
+- Docker & Podman ready
+- Clean terminal environment
+- Fedora workstation bootstrap
+
+---
+
+## Included Tools
+
+### System
+- btop
+- fastfetch
+- htop
+- tmux
+- vim
+- git
+- curl
+- wget
+
+### Networking
+- nmap
+- tcpdump
+- traceroute
+- bind-utils
+- iperf3
+
+### Containers
+- docker
+- podman
+- docker-compose
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/0xMart/fedora-secure-base.git
+cd fedora-secure-base
+
+chmod +x install.sh
+./install.sh
+```
+
+---
+
+## Goals
+
+This project aims to provide:
+- a clean Fedora setup
+- a practical workstation for infrastructure work
+- a reproducible Linux environment
+- a solid base for homelab and networking usage
+
+---
+
+## Roadmap
+
+### V1
+- [x] Base package installation
+- [x] Networking tools
+- [x] Monitoring tools
+- [x] Terminal setup
+
+### Next
+- [ ] Security hardening
+- [ ] Firewall presets
+- [ ] Fail2ban setup
+- [ ] Backup automation
+- [ ] Monitoring dashboard
+
+---
+
+## Disclaimer
+
+Always review scripts before running them on your system.
+
+---
+
+## Author
+
+Malo Martin / 0xMart
