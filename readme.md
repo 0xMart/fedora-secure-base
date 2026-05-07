@@ -1,7 +1,15 @@
+<div align="center">
 
 # Fedora Secure Base
 
-Modern Fedora setup for sysadmins, homelab and cybersecurity enthusiasts.
+### Modern Fedora setup for sysadmins, homelab and cybersecurity enthusiasts.
+
+<img src="https://img.shields.io/badge/Fedora-Workstation-51A2DA?style=for-the-badge&logo=fedora&logoColor=white">
+<img src="https://img.shields.io/badge/Linux-Sysadmin-black?style=for-the-badge&logo=linux&logoColor=white">
+<img src="https://img.shields.io/badge/Security-Hardening-red?style=for-the-badge&logo=gnuprivacyguard&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+
+</div>
 
 ---
 
@@ -16,36 +24,46 @@ Modern Fedora setup for sysadmins, homelab and cybersecurity enthusiasts.
 
 ---
 
-## Included Tools
+# Included Tools
 
-### System
-- btop
-- fastfetch
-- htop
-- tmux
-- vim
-- git
-- curl
-- wget
+## System
 
-### Networking
-- nmap
-- tcpdump
-- traceroute
-- bind-utils
-- iperf3
+```bash
+btop
+fastfetch
+htop
+tmux
+vim
+git
+curl
+wget
+```
 
-### Containers
-- docker
-- podman
-- docker-compose
+## Networking
+
+```bash
+nmap
+tcpdump
+traceroute
+bind-utils
+iperf3
+```
+
+## Containers
+
+```bash
+docker
+podman
+docker-compose
+```
 
 ---
 
-## Installation
+# Installation
 
 ```bash
 git clone https://github.com/0xMart/fedora-secure-base.git
+
 cd fedora-secure-base
 
 chmod +x install.sh
@@ -54,25 +72,28 @@ chmod +x install.sh
 
 ---
 
-## Goals
+# Goals
 
 This project aims to provide:
-- a clean Fedora setup
-- a practical workstation for infrastructure work
-- a reproducible Linux environment
-- a solid base for homelab and networking usage
+
+- A clean Fedora setup
+- A practical workstation for infrastructure work
+- A reproducible Linux environment
+- A solid base for homelab and networking usage
 
 ---
 
-## Roadmap
+# Roadmap
 
-### V1
+## V1
+
 - [x] Base package installation
 - [x] Networking tools
 - [x] Monitoring tools
 - [x] Terminal setup
 
-### Next
+## Next
+
 - [ ] Security hardening
 - [ ] Firewall presets
 - [ ] Fail2ban setup
@@ -81,12 +102,24 @@ This project aims to provide:
 
 ---
 
-## Disclaimer
+# Preview
+
+Soon:
+- terminal screenshots
+- monitoring setup
+- cockpit dashboard
+- shell customization
+
+---
+
+# Disclaimer
 
 Always review scripts before running them on your system.
 
 ---
 
-## Author
+<div align="center">
 
-Malo Martin / 0xMart
+Made with ❤️ on Fedora by **0xMart**
+
+</div>
