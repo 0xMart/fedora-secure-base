@@ -7,7 +7,6 @@
 <img src="https://img.shields.io/badge/Fedora-Workstation-51A2DA?style=for-the-badge&logo=fedora&logoColor=white">
 <img src="https://img.shields.io/badge/Linux-Sysadmin-black?style=for-the-badge&logo=linux&logoColor=white">
 <img src="https://img.shields.io/badge/Security-Hardening-red?style=for-the-badge&logo=gnuprivacyguard&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 
 </div>
 
@@ -88,17 +87,10 @@ This project aims to provide:
 ## V1
 
 - [x] Base package installation
-- [x] Networking tools
-- [x] Monitoring tools
-- [x] Terminal setup
+- [] Networking tools
+- [] Monitoring tools
+- [] Terminal setup
 
-## Next
-
-- [ ] Security hardening
-- [ ] Firewall presets
-- [ ] Fail2ban setup
-- [ ] Backup automation
-- [ ] Monitoring dashboard
 
 ---
 
@@ -109,12 +101,6 @@ Soon:
 - monitoring setup
 - cockpit dashboard
 - shell customization
-
----
-
-# Disclaimer
-
-Always review scripts before running them on your system.
 
 ---
 
