@@ -12,8 +12,6 @@ packages=(
     wget
     vim
     tmux
-    htop
-    btop
     fastfetch
 )
 

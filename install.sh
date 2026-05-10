@@ -21,3 +21,4 @@ echo -e "${RESET}"
 
 bash packages/base.sh
 bash packages/networking.sh
+bash packages/monitoring.sh
